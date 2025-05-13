@@ -1,0 +1,38 @@
+        *{
+            background-color: #e7e7e7;
+            text-align: center;
+        }
+        form{
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        input{
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+
+        button{
+            border: 1px solid black;
+            border-radius: 5px;
+            padding: 0.8vh;
+            transition: 0.5s
+        }
+
+        button:hover{
+            background-color: black;
+            color: white;
+            scale: 105%
+        }
+
+        a{
+            color: black;
+            text-transform: uppercase;
+            text-decoration:none;
+            transition: 0.5s;
+        }
+
+        a:hover{
+            font-weight: 900;
+        }
